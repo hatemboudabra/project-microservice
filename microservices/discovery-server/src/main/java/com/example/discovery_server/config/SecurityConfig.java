@@ -30,12 +30,12 @@ public class SecurityConfig  {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .csrf(csrf -> csrf.disable())  // Désactiver la protection CSRF
+                .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(authorize -> authorize
-                        .anyRequest().authenticated())  // Exiger l'authentification pour toute demande
-                .httpBasic(httpBasicCustomizer -> {});  // Configurer l'authentification HTTP basique
+                        .anyRequest().authenticated())
+                .httpBasic(httpBasicCustomizer -> {});
 
-        return http.build();  // Construire et retourner la chaîne de filtres de sécurité
+        return http.build();  
     }
 
     @Bean
@@ -51,6 +51,6 @@ public class SecurityConfig  {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        return NoOpPasswordEncoder.getInstance();  // Utiliser NoOpPasswordEncoder (non recommandé pour la production)
+        return NoOpPasswordEncoder.getInstance();
     }
 }

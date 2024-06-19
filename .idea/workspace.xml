@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a38eaf4-c33c-4be8-9161-cad1db404229" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/microservices/discovery-server/src/main/java/com/example/discovery_server/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/discovery-server/src/main/java/com/example/discovery_server/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/discovery-server/src/main/java/com/example/discovery_server/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,11 +119,22 @@
       <updated>1718313850165</updated>
       <workItem from="1718313852472" duration="9744000" />
       <workItem from="1718600397359" duration="89000" />
-      <workItem from="1718613124585" duration="7348000" />
+      <workItem from="1718613124585" duration="8291000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/api-gateway/src/main/java/com/example/api_gateway/ApiGatewayApplication.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
