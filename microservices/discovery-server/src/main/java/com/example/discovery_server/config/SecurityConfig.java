@@ -35,7 +35,7 @@ public class SecurityConfig  {
                         .anyRequest().authenticated())
                 .httpBasic(httpBasicCustomizer -> {});
 
-        return http.build();  
+        return http.build();
     }
 
     @Bean
