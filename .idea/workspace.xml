@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a38eaf4-c33c-4be8-9161-cad1db404229" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/discovery-server/src/main/java/com/example/discovery_server/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/discovery-server/src/main/java/com/example/discovery_server/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/com/example/inventory_service/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/com/example/inventory_service/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/order-service/src/main/java/com/example/order_service/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/order-service/src/main/java/com/example/order_service/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/order-service/src/main/java/com/example/order_service/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/order-service/src/main/java/com/example/order_service/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -39,6 +48,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Maven.api-gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api-gateway [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api-gateway [verify].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.microservices [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.microservices [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.microservices [verify].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -63,7 +78,7 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.api_gateway.ApiGatewayApplication" />
@@ -125,22 +140,13 @@
       <updated>1718313850165</updated>
       <workItem from="1718313852472" duration="9744000" />
       <workItem from="1718600397359" duration="89000" />
-      <workItem from="1718613124585" duration="11843000" />
+      <workItem from="1718613124585" duration="13269000" />
+      <workItem from="1718877071499" duration="2713000" />
+      <workItem from="1719046560909" duration="3239000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/microservices/api-gateway/src/main/java/com/example/api_gateway/ApiGatewayApplication.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
